@@ -21,7 +21,8 @@ async function creatMob() {
 
 		console.log(data);
 
-		await delay(1000);
+		await delay(10);
+		
 	}
 }
 
@@ -37,4 +38,4 @@ async function deleteAll() {
 	}
 }
 
-deleteAll();
+creatMob();

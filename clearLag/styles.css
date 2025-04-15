@@ -3,3 +3,19 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+.navFull{
+    display: flex;
+    flex-direction: row;
+}
+
+.logoGroup{
+    display: flex;
+    flex-direction: row;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+}
