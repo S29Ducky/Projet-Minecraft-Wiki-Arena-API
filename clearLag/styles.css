@@ -1,21 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: Rubik;
 }
 
-.navFull{
-    display: flex;
-    flex-direction: row;
+header{
+    background: url(./assets/hearder.png);
+    padding: 10px 0 10px 0;
 }
 
-.logoGroup{
+nav{
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
 }
 
-ul{
+.logoTitle{
     display: flex;
     flex-direction: row;
-    gap: 4px;
+    width: 35%;
+    align-items: center;
 }
+
+.logo{
+    width: 25%;;
+}
+
+.title{
+    font-weight: 700;
+    font-size: 16px;
+    color: #fff;
+    width: 100%;
+padding-left: 10px;}
+
+label{
+    background-color: #fff;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+input{
+    border: none;
+    border-radius: 50px;
+    width: 50%;
+}
+
+.menuBurger{
+    height: 80%;
+    width: 10%;
+}
+
+.menuBurger hr{
+    width: 70%;
+    height: 3px;
+    background-color: #fff;
+    border: none;
+
+}
+
+.coucheSoliel{
+    height: 10vh;
+    background: center/cover url(./assets/imgNuage.png);
+    background: #D99457;
+    background: linear-gradient(180deg,rgba(217, 148, 87, 1) 0%, rgba(205, 134, 62, 1) 35%, rgba(133, 170, 237, 1) 58%, rgba(153, 214, 228, 1) 100%);
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background:
+     no-repeat url(./assets/imageBodyRules.png);
+}
+
+.cardRules{
+    width: 80%;
+    background-color: #fff;
+    margin-top: 73px;
+    padding: 30px;
+}
+
+h1{
+    font-size: 48px;
+    font-weight: 300;
+    margin-bottom: 24px;
+}
+
+.Rules{
+    font-weight: 400;
+    font-size: 16px;
+}
+
+span{
+    font-weight: 600;
+}
+
+.pFooter{
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 32px;
+}
+
+hr{
+    margin: 10px 0 10px 0;
+}
+
+#spanArenaTab{
+    color: blue;
+    font-weight: 400;
+    font-size: 16px;
+    vertical-align: middle;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-decoration-thickness: 20%;
+    text-decoration-skip-ink: auto;
+}
+

@@ -1,26 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="stylesheet" href="../reset&normal/reset.css" />
-		<link rel="stylesheet" href="../reset&normal/normalize.css" />
-		<link rel="stylesheet" href="./styles.css" />
-		<title>Document</title>
-	</head>
-	<body>
-		<header>
-			<div class="navFull">
-                <div class="logoGroup">
-                    <img src="./assets/logo.svg" alt="logo">
-                    <p>Minecraft wiki</p>
-                </div>
-                <ul>
-                    <li><img src="./assets/explorer.svg" alt="explore"><span>EXPLORE</span></li>
-                    <li><img src="./assets/arena.svg" alt="arena"><span>ARENA</span></li>
-                    <li><img src="./assets/rules.svg" alt="rules"><span>RULES</span></li>
-                </ul>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logoTitle">
+                <img class="logo"" src="./assets/logo.svg" alt="Logo Mincraft wiki">
+                <p class="title">Minecraft wiki</p>
             </div>
-		</header>
-	</body>
+			<ul>
+				<li><img src="./assets/explorer.svg" alt="explorer"></li>
+				<li><img src="./assets/" alt=""></li>
+				<li></li>
+			</ul>
+            <label for="">
+                <img src="./assets/loupe.svg" alt="loupe">
+                <input type="text" id="inputNav" placeholder="Search...">
+            </label>
+            <div class="menuBurger">
+                <hr>
+                <hr>
+                <hr>
+            </div>
+        </nav>
+    </header>
+    <div class="coucheSoliel"></div>
+    <main>
+        <section class="cardRules">
+            <h1>Arena rules</h1>
+            <p class="Rules"><span>Arena</span> is Minecraft area where multiples entities fight against one unique BOSS.
+                This area represent a chuck of 32 blocks by 32 blocks in Minecraft world.
+                <br>
+                <br>
+                Every 10 minutes a new BOSS spawn at the center of the <span>Arena</span>  and start fighting against entities present inside the area.The BOSS can only focus one entity by one and can not fight multiples entities together.
+                <br>
+                <br>
+                To win the <span>Arena</span>, you need to defeat the BOSS by placing new entities within this area.
+                <br>
+                The <span>Arena</span> is open during 10 minutes. During this time, you can create, modify, or delete any entity you want.
+                <br>
+                After 10 minutes, the Arena close, a new BOSS spawn and start fighting against all entities inside the area.
+                <br>
+                <br>
+                You can not create, modify or delete any entities while the <span>Arena</span> is closed.
+                <br>
+                <br>
+                The <span>Arena</span> stop fight and re-open when all entities died inside area or BOSS is defeated.
+            </p>
+                <article class="footer">
+                    <p class="pFooter">How to create, modify or delete entity ?</p>
+                    <hr id="hrFooter">
+                    <p class="Rules">Visit <span id="spanArenaTab">Arena</span> tab and modify create or delete any entity you want.</p>
+                </article>
+        </section>
+
+    </main>
+</body>
 </html>
